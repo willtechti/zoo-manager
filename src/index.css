@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background: #4a4a4a;
+  color: white;
+  padding: 14px;
+  text-align: left;
+  font-size: 16px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+tr:hover {
+  background: #f3f3f3;
+}
+body {
+  background: #eef2f7;
+  font-family: Arial, sans-serif;
+}
+
+.link-voltar {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  padding: 7px 14px;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  border: 1px solid #d0d0d0;
+  transition: 0.3s ease;
+}
+
+.link-voltar:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+/* BOTÕES PADRÃO */
+
+.btn {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  background-color: #f3f3f3;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #e2e2e2;
+}
+
+/* Botão principal: usar em SALVAR, CADASTRAR etc. */
+.btn-primary {
+  font-weight: 600;
+  background-color: #f0f0f0;   /* cinza claro */
+  color: #333;                 /* texto escuro */
+  border: 1px solid #ccc;
+}
+
+.btn-primary:hover {
+  background-color: #e0e0e0;
+}
+
+/* Botão de edição */
+.btn-secondary {
+  /* mesmo estilo base, só deixamos um pouco diferente se quiser depois */
+}
+
+/* Botão de exclusão */
+.btn-danger {
+  background-color: #f8e1e1;
+  border-color: #e0bcbc;
+  color: #8a1f1f;
+}
+
+.btn-danger:hover {
+  background-color: #f1caca;
+}
