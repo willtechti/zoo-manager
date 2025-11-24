@@ -6,38 +6,31 @@ Este projeto foi desenvolvido como parte de um desafio técnico, com o objetivo 
 
 O sistema permite gerenciar duas entidades principais:
 
-Animais
-
-Cuidados aplicados aos animais
+- **Animais**
+- **Cuidados aplicados aos animais**
 
 As operações disponíveis incluem:
 
-Cadastro
+- Cadastro
+- Listagem
+- Edição
+- Exclusão
 
-Listagem
+Todas realizadas consumindo dados de uma **API REST**.
 
-Edição
 
-Exclusão
+🛠 Tecnologias Utilizadas
 
-Todas realizadas consumindo dados de uma API REST.
+### Frontend
+- React (Create React App)
+- React Router DOM
+- Fetch API (comunicação com backend)
+- CSS puro (estilização personalizada)
 
-🛠️ Tecnologias Utilizadas
-Frontend
+### Backend (API Fake)
+- JSON Server
+- Arquivo `db.json` utilizado como banco de dados simulado
 
-React (Create React App)
-
-React Router DOM
-
-Fetch API (comunicação com backend)
-
-CSS puro (estilização personalizada)
-
-Backend (API Fake)
-
-JSON Server
-
-Arquivo db.json utilizado como banco de dados simulado
 
 📁 Arquitetura do Projeto
 
