@@ -58,7 +58,6 @@ Comunicação entre Frontend e API
 
 O frontend utiliza a Fetch API para acessar os dados do backend em:
 http://localhost:3001/animais
-
 http://localhost:3001/cuidados
 
 Todas as regras de comunicação estão organizadas na pasta “services”.
